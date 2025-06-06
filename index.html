@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Tair Bekishev – Frontend & WordPress Developer">
+  <title>Tair Bekishev – Frontend Developer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; line-height: 1.6; }
+    header, section, footer { padding: 2rem; max-width: 900px; margin: auto; }
+    .hero { background: #222; color: #fff; text-align: center; padding: 4rem 2rem; }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+    .cta-btn { background: #28a745; color: #fff; padding: 0.75rem 1.5rem; border: none; border-radius: 5px; text-decoration: none; }
+    h2 { margin-top: 2rem; margin-bottom: 1rem; color: #222; }
+    ul { list-style: disc; padding-left: 1.5rem; }
+    .cards { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .card { background: #fff; padding: 1rem; border-radius: 5px; box-shadow: 0 0 8px rgba(0,0,0,0.1); flex: 1 1 calc(45% - 1rem); }
+    form { display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem; }
+    input, textarea { padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #007bff; color: #fff; padding: 0.75rem; border: none; border-radius: 5px; cursor: pointer; }
+    .whatsapp-btn { margin-top: 1rem; display: inline-block; color: #25d366; font-weight: bold; }
+    footer { text-align: center; font-size: 0.9rem; color: #555; margin-top: 2rem; }
+    @media(max-width: 600px) {
+      .cards { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>I turn ideas into fast and beautiful websites</h1>
+    <p>I'm Tair Bekishev, a Frontend and WordPress Developer based in Prague. Let’s build something great together.</p>
+    <a href="#contact" class="cta-btn">Contact me on WhatsApp</a>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m a frontend developer with 3 years of experience building custom WordPress themes and WooCommerce stores. I work with HTML, SCSS, JavaScript, and clean WordPress architecture using ACF, custom post types, and hooks. My goal is to build responsive, scalable, and efficient websites that bring business results.</p>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><strong>WordPress:</strong> Custom themes, ACF, hooks, custom post types, WooCommerce</li>
+      <li><strong>Frontend:</strong> HTML, CSS, SCSS, JavaScript</li>
+      <li><strong>Tools:</strong> Git, GitHub, Astro.build, DevTools</li>
+      <li><strong>Design:</strong> Adobe Photoshop, Illustrator, XD</li>
+      <li><strong>Best Practices:</strong> BEM, modular SCSS, multilingual support</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Highlighted Projects</h2>
+    <div class="cards">
+      <div class="card"><a href="https://capxmaster.com" target="_blank">CapXmaster</a> – WordPress | WooCommerce</div>
+      <div class="card"><a href="https://fitchglobalmarkets.com" target="_blank">Fitch Global Markets</a> – WordPress</div>
+      <div class="card"><a href="https://oipax.com" target="_blank">Oipax</a> – JavaScript</div>
+      <div class="card"><a href="https://zenitefx.com" target="_blank">ZeniteFX</a> – WordPress</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Talk</h2>
+    <form action="https://formspree.io/f/mnqepnkl" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Tell me about your project or open position..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <a href="https://wa.me/420608119552" target="_blank" class="whatsapp-btn">Or message me on WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Tair Bekishev – Frontend & WordPress Developer</p>
+    <p>Based in Prague, open to remote opportunities worldwide.</p>
+  </footer>
+</body>
+</html>
